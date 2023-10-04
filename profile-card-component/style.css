@@ -77,10 +77,16 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 100px;
-        left: 100px;
-        transform: translate(-50%, -50%));
+        top: 20%;
+        left: 27%;
         position: absolute;
+}
+
+@media (max-width: 375px) {
+        .card {
+                width: 90%;
+                height: 60%;
+        }
 }
 
 .card__photo {
