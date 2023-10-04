@@ -12,18 +12,29 @@
   
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <div class="card">
     <span class="card__corner">
-      <img class="card__photo" src="./images/image-victor.jpg" alt="user Image">
+      <span class="card__photo"></span>
     </span>
+    <span class="card__name-container">
+    <span class="card__name">Victor Crest<span class="card__age">26</span></span>
+    <span class="card__location">London</span>
+    </span>
+    <span class="card__stats">
+      <span class="card__stat">
+        <span class="card__stat-value">80K</span>
+        <span class="card__stat-label">Followers</span>
+      </span>
+      <span class="card__stat">
+        <span class="card__stat-value">803K</span>
+        <span class="card__stat-label">Likes</span>
+      </span>
+      <span class="card__stat">
+        <span class="card__stat-value">1.4K</span>
+        <span class="card__stat-label">Photos</span>
+      </span>
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
